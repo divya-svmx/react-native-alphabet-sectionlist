@@ -13,7 +13,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "merge": "^1.2.1",
+    "merge": "2.0.1",
     "prop-types": "^15.7.2"
   },
   "homepage": "https://github.com/CoderJWYang/react-native-alphabet-sectionlist#readme",
