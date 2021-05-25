@@ -95,7 +95,7 @@ export default class AlphabetSectionList extends Component {
   }
 
   render() {
-    const { data } = this.props;
+    const { data, rightTestId } = this.props;
     let sectionList;
     let dataSource;
     let sections = Object.keys(data);
@@ -113,6 +113,7 @@ export default class AlphabetSectionList extends Component {
         getSectionListTitle={this.props.getRightSectionListTitle}
         component={this.props.rightSectionListItem}
         fontStyle={this.props.sectionListFontStyle}
+        {...rightTestId}
       /> :
       null;
 
